@@ -1,0 +1,50 @@
+/* nuancier
+#2B160C;
+#7B6A62;
+#A78B76;
+#A2958E;
+#D1C7BB;
+
+*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #A2958E;
+	color: #D1C7BB;
+}
+.navbar img {
+	border-radius: 50%;
+	width: 4em;
+	margin-left: 1em;
+}
+
+.navbar {
+	background-color: #7B6A62;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-brand {
+	color: #D1C7BB;
+}
+
+.navbar-light .navbar-nav .active> .nav-link{
+	color: #A2958E;
+}
+.navbar-light .navbar-nav  .nav-link{
+	color: #D1C7BB;
+}
+
+.navbar-brand{
+	font-size: 1.4em;
+	margin-left:1em;
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:992px){
+
+}
+@media (min-width:1200px) {
+	
+}
