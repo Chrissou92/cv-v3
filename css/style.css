@@ -1,50 +1,160 @@
 /* nuancier
-#2B160C;
-#7B6A62;
-#A78B76;
-#A2958E;
-#D1C7BB;
+#2B160C; #103CFF;
+#7B6A62; #0E70E8;
+#A78B76; #1DBEFF;
+#A2958E; #0EE3E8;
+#D1C7BB; #10FFC2;
 
 */
+
 body {
+	background-color: #0EE3E8;
+	color: #10FFC2;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #A2958E;
-	color: #D1C7BB;
 }
+
 .navbar img {
-	border-radius: 50%;
-	width: 4em;
+    border-radius: 50%;
 	margin-left: 1em;
+    width: 4em;
 }
 
 .navbar {
-	background-color: #7B6A62;
-	font-size: 1.1em;
-	text-transform: uppercase;
+    background-color: #1DBEFF;
+    font-size: 1.1em;
+    text-transform: uppercase;
 }
+
 .navbar-light .navbar-brand {
-	color: #D1C7BB;
+    color: #FFF;
 }
 
-.navbar-light .navbar-nav .active> .nav-link{
-	color: #A2958E;
-}
-.navbar-light .navbar-nav  .nav-link{
-	color: #D1C7BB;
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FFF;
 }
 
-.navbar-brand{
+.navbar-light .navbar-nav .nav-link {
+    color: #FF;
+}
+
+.navbar-brand {
+    font-size: 1.4em;
+    margin-left: 1em;
+}
+
+/* -------------------------------------
+section About
+-------------------------------------- */
+
+.card-img-bottom {
+	background: url(../images/trent-erwin-338084-unsplash.jpg) center no-repeat;
+	background-size: cover;
+    color: #0E70E8;
+    height: 20rem;
+}
+
+.about {
+	background-color: #1DBEFF;
+	border: 2px solid #0E70E8;
+	margin-top: 3em;
+}
+
+.about .card-block {
+    color: #fff;
 	font-size: 1.4em;
-	margin-left:1em;
+	padding: 1.3em;
+    text-align:inherit;
 }
+.about .card-block h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+.image-about {
+	padding-left: 0;
+}
+/* -------------------------------------
+section SKILLS
+-------------------------------------- */
+.skills {
+	background-color: #10FFC2;
+	border: 2px solid #103CFF;
+	border-radius: 1%;
+	margin-top: 5em;
+}
+.title-skills {
+	font-size: 1.4em;
+    padding: 1em;
+    font-weight: bold;
+    background-color: #0EE3E8;
+	color: #103CFF;
+}
+
+.skills thead th{
+	color:#103CFF;
+    font-weight: bold;
+    border: 1px solid #103CFF;
+    padding-left: 1em;
+
+
+}
+.skills tbody th {
+    color: #103CFF;
+    border: 1px solid #0E70E8;
+    padding-left: 1em;
+}
+.skills tbody td {
+    color: #103CFF;
+    border: 1px solid #0E70E8;
+}
+.tableau-l{
+	padding-right: 0;
+}
+.tableau-r{
+	padding-left: 0;
+}
+
+
+
+
+
 
 @media (max-width:768px) {
-
+    .navbar img {
+        margin: auto;
+    }
+    .navbar-light .navbar-brand {
+        margin: auto;
+    }
+    .navbar-toggler {
+        margin: auto;
+    }
+    .card-img-bottom {
+        margin-left: auto;
+        width: 95%;
+    }
+    .skills thead td {
+		padding-left: 0px;
+        padding-right:0px;
+	}
+    .skills thead th {
+		padding-left: 0px;
+        padding-right:0px;
+	}
+    .skills tbody td {
+		padding-left: 0px;
+        padding-right:0px;
+	}
+    .skills tbody th {
+		padding-left: 0px;
+        padding-right:0px;
+	}
+    .skills {
+    	margin-top: 3em;
+        padding: 0;
+    }
 }
 
-@media (max-width:992px){
+@media (max-width:992px) {}
 
-}
-@media (min-width:1200px) {
-	
-}
+@media (min-width:1200px) {}
