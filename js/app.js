@@ -11,11 +11,12 @@ $(window).scroll(function(){
             $(".fixe-nav").hide();
           }
         else
-          $('.nav').slideUp(450)&&
-            $(".fixe-nav").show(450)
+          $('.nav').slideUp(450);
+            $(".fixe-nav").show();
 
 
 });
+
 }
 
 };

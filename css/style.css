@@ -12,6 +12,8 @@ body {
     padding: 0px;
 }
 
+
+
 /* -------------------------------------
 NAME
 -------------------------------------- */
@@ -19,22 +21,22 @@ NAME
 .name-div {
     color: #FFF;
     background-color: #343A40;
-	border-bottom: 2px solid #1DBEFF;
-	font-size: 3.5em;
-	height: 60rem;
+    border-bottom: 2px solid #1DBEFF;
+    font-size: 3.5em;
+    height: 60rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 .name {
-	font-size: 0.8em;
+    font-size: 0.8em;
     margin-top: 1em;
 }
 
 .name-div img {
-	border-radius: 50%;
-	height: 3em;
-	margin-top: 2em;
+    border-radius: 50%;
+    height: 3em;
+    margin-top: 2em;
     width: 3em;
 }
 
@@ -58,7 +60,7 @@ navFixe
 }
 
 .navbar {
-	border-bottom: 2px solid #1DBEFF;
+    border-bottom: 2px solid #1DBEFF;
     font-size: 1em;
     text-transform: uppercase;
 }
@@ -97,9 +99,9 @@ section About
 -------------------------------------- */
 
 .image-about img {
-	height: 30em;
+    height: 30em;
     margin-left: 19em;
-	width: 60em;
+    width: 60em;
 }
 
 .btn-about {
@@ -161,11 +163,11 @@ section SKILLS
 }
 
 .img-skills img {
-	height: 30em;
-	margin-bottom: 3em;
+    height: 30em;
+    margin-bottom: 3em;
     margin-left: 3em;
     margin-top: 3em;
-	width: 35em;
+    width: 35em;
 }
 
 .icone .fas {
@@ -203,7 +205,7 @@ section SKILLS
 
 .skills .btn {
     color: #464646;
-	margin-bottom: 2em;
+    margin-bottom: 2em;
     margin-left: 2em;
 }
 
@@ -213,7 +215,7 @@ section hobby
 
 .hobby {
     background-color: #343A40;
-	border-bottom: 2px solid #1DBEFF;
+    border-bottom: 2px solid #1DBEFF;
     color: #DDDDDD;
     padding-top: 4em;
 }
@@ -222,16 +224,16 @@ section hobby
     font-size: 2.5em;
     font-weight: bold;
     margin-left: 2em;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .hobby-icone {
-	margin-top: 5em;
+    margin-top: 5em;
     text-align: center;
 }
 
 .hobby-icone i {
-	margin-right: 2em;
+    margin-right: 2em;
     padding-bottom: 2em;
 }
 
@@ -241,7 +243,7 @@ section hobby
 }
 
 .hobby-photo img {
-	height: 25em;
+    height: 25em;
     width: 25em;
 }
 
@@ -267,23 +269,22 @@ footer .btn {
 }
 
 #footer {
-	padding-top: 2em;
+    padding-top: 2em;
     text-align: center;
 }
 
 #footer i {
     font-size: 1.5em;
     font-weight: bold;
-	margin-right: 1em;
+    margin-right: 1em;
 }
 
 /* -------------------------------------
 MOBILE
 -------------------------------------- */
+
 @media (max-width:760px) {
-
-
-/* title------------------- */
+    /* title------------------- */
     .name {
         font-size: 0.5em;
         text-align: center;
@@ -306,7 +307,7 @@ MOBILE
     .navbar-toggler {
         margin: auto;
     }
-/* about me ------------------*/
+    /* about me ------------------*/
     .card-img-bottom {
         margin-left: auto;
         width: 98%;
@@ -317,15 +318,14 @@ MOBILE
     .card-block {
         margin-top: 0.5em;
     }
-
     .image-about img {
-    	display: none;
+        display: none;
     }
-/*skills---------------------  */
+    /*skills---------------------  */
     .skills img {
         width: 19em;
         height: 19em;
-        margin-top:1em;
+        margin-top: 1em;
         margin-left: 1.5em;
     }
     .icone .fas {
@@ -333,29 +333,27 @@ MOBILE
         margin-left: 3em;
     }
     .skills-text {
-    margin-left: 2em;
-    margin-top: 2em;
+        margin-left: 2em;
+        margin-top: 2em;
     }
     .skills-text ul {
         font-size: 0.5em;
         list-style: disc;
     }
-    .skills-language li{
-	font-size: 2em;
+    .skills-language li {
+        font-size: 2em;
     }
     .skills-language {
-    margin-left: 3em;
+        margin-left: 3em;
     }
-    .skills-line li{
-    font-size: 2em;
-
+    .skills-line li {
+        font-size: 2em;
     }
     .skills-line {
         margin-left: 1.6em;
     }
-    .skills-frame li  {
-    font-size: 2em;
-
+    .skills-frame li {
+        font-size: 2em;
     }
     .skills-frame {
         margin-left: 3em;
@@ -365,9 +363,7 @@ MOBILE
         margin-bottom: 1em;
     }
     /*HOBBY---------------------  */
-    .hobby h3 {
 
-	}
     .hobby-icone {
         margin-left: 1em;
     }
@@ -377,19 +373,66 @@ MOBILE
     }
     .hobby button {
         margin-top: 2em;
-
     }
     /*FOOTER---------------------  */
     #footer {
         font-size: 0.7em;
     }
-
 }
+
 /* -------------------------------------
 TABLETTE
 -------------------------------------- */
-@media (max-width:992px) {
-	
+
+@media (max-width: 980px) {
+    /* about me -------------------------*/
+    .image-about img {
+        height: 20em;
+        margin-left: 1em;
+        margin-top:8em;
+        width: 30em;
+    }
+    /* Skills---------------------------*/
+    .img-skills img {
+        height: 20em;
+        margin-top: 6em;
+        width: 20em;
+
+    }
+    .skills-title {
+        font-size: 1.8em;
+    }
+    .icone .fas {
+        display:none;
+    }
+    .skills-text {
+        margin-left: 0em;
+        margin-top: 2em;
+    }
+    .skills .btn {
+
+        margin-bottom: 1em;
+        margin-left: 2em;
+    }
+    .skills-text li {
+        font-size: 1em;
+        margin-top: 2.5em;
+        margin-bottom: 1em;;
+    }
+    .skills-frame {
+        margin-left: 1.5em;
+    }
+    .skills-text ul {
+        list-style:none;
+    }
+	.hobby-photo img {
+	    height: 25em;
+	    width: 20em;
+		margin-top: 5em;
+
+	}
+
+
 }
 
 @media (min-width:1200px) {}
